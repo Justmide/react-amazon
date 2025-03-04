@@ -44,6 +44,10 @@ const AuthProvider = ({children})=>{
                 }
             })
             const data = await res.json()
+            localStorage.setItem("token", data.token)
+            localStorage.setItem("user", JSON.stringify(data.user))
+            console.log(data);
+            
             if(res.ok){
                 toast.success(data.message)
                 navigate("/dashboard")

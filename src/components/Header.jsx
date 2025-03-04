@@ -52,6 +52,7 @@ const Header = () => {
         <a  style={{textDecoration: "none", color: "white", fontSize: "20px",}} href="#">News</a>
         <a style={{textDecoration: "none", color: "white", fontSize: "20px",}} href="#">Community</a>
         <Link  style={{textDecoration: "none", color: "white", fontSize: "20px",}} to="/signup">Sign Up</Link>
+        <Link  style={{textDecoration: "none", color: "white", fontSize: "20px",}} to="/dashboard">Dashboard</Link>
       </ul>
       </div>
       <div>
